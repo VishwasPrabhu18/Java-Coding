@@ -1,8 +1,14 @@
-package day1;
+package Arrays;
 
 import java.util.Arrays;
 
-/*
+/* ****************
+ * Set Matrix Zero
+ * ****************
+ * Problem Statement: Given a matrix if an element in the matrix is 0 then you will have to set its entire 
+ * column and row to 0 and then return the matrix.
+ * 
+ * 
  * Given an 2D matrix where we need to replace all corresponding row & column value to 0
  *  if any (row, column) = 0
  * 
