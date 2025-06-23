@@ -345,6 +345,27 @@ Example 2:
 ```
 </details>
 
+<details>
+<summary>
+  <code>Sort an array of 0s, 1s and 2s</code>
+  <a target="_blank" href="https://github.com/VishwasPrabhu18/Java-Coding/blob/main/Problems_On_Arrays/Medium/SortArray012.java">SortArray012.java</a>
+</summary>
+
+```
+Problem Statement: Given an array consisting of only 0s, 1s, and 2s. Write a program to in-place sort the array without using inbuilt sort functions. ( Expected: Single pass-O(N) and constant space)
+
+Examples
+   Input: nums = [2,0,2,1,1,0]
+   Output: [0,0,1,1,2,2]
+
+   Input: nums = [2,0,1]
+   Output: [0,1,2]
+
+   Input: nums = [0]
+   Output: [0]
+```
+</details>
+
 
 
 
