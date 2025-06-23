@@ -315,4 +315,58 @@ Example 2:
 
 
 ### <a name="medium">Medium</a>
+
+<details>
+<summary>
+  <code>Two Sum : Check if a pair with given sum exists in Array</code>
+  <a target="_blank" href="https://github.com/VishwasPrabhu18/Java-Coding/blob/main/Problems_On_Arrays/Medium/TwoSum.java">TwoSum.java</a>
+</summary>
+
+```
+Problem Statement: Given an array of integers arr[] and an integer target.
+
+1st variant: Return YES if there exist two numbers such that their sum is equal to the target. 
+             Otherwise, return NO.
+2nd variant: Return indices of the two numbers such that their sum is equal to the target. 
+             Otherwise, we will return {-1, -1}.
+
+Note: You are not allowed to use the same element twice. Example: If the target is equal to 6 and 
+      num[1] = 3, then nums[1] + nums[1] = target is not a solution.
+
+Example 1:
+     Input Format: N = 5, arr[] = {2,6,5,8,11}, target = 14
+     Result: YES (for 1st variant)
+             [1, 3] (for 2nd variant)
+
+Example 2:
+     Input Format: N = 5, arr[] = {2,6,5,8,11}, target = 15
+     Result: NO (for 1st variant)
+             [-1, -1] (for 2nd variant)
+```
+</details>
+
+<details>
+<summary>
+  <code>Sort an array of 0s, 1s and 2s</code>
+  <a target="_blank" href="https://github.com/VishwasPrabhu18/Java-Coding/blob/main/Problems_On_Arrays/Medium/SortArray012.java">SortArray012.java</a>
+</summary>
+
+```
+Problem Statement: Given an array consisting of only 0s, 1s, and 2s. Write a program to in-place sort the array without using inbuilt sort functions. ( Expected: Single pass-O(N) and constant space)
+
+Examples
+   Input: nums = [2,0,2,1,1,0]
+   Output: [0,0,1,1,2,2]
+
+   Input: nums = [2,0,1]
+   Output: [0,1,2]
+
+   Input: nums = [0]
+   Output: [0]
+```
+</details>
+
+
+
+
 ### <a name="hard">Hard</a>
