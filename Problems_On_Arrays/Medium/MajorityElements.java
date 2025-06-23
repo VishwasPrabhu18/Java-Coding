@@ -2,8 +2,6 @@ package Problems_On_Arrays.Medium;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 
 /*
  * Find the Majority Element that occurs more than N/2 times
