@@ -1,10 +1,11 @@
 # <a name="description">Problems on Arrays</a>
+
 ## <a name="description">🕸️ Descriptions</a>
 
 ### <a name="easy">Easy</a>
 
 <details>
-<summary>
+**Summary**
   <code>Largest element in an array</code>
   <a target="_blank" href="https://github.com/VishwasPrabhu18/Java-Coding/blob/main/Problems_On_Arrays/Easy/LargestElement.java">LargestElement.java</a>
 </summary>
@@ -21,6 +22,7 @@ Example2:
    Output: 10
    Explanation: 10 is the largest element in the array.
 ```
+
 </details>
 
 <details>
@@ -38,8 +40,9 @@ Example 1:
 
 Example 2:
    Input: [1]
-   Output:	Second Largest : -1
+   Output: Second Largest : -1
 ```
+
 </details>
 
 <details>
@@ -57,8 +60,9 @@ Example 1:
 
 Example 2:
    Input: [1]
-   Output:	Second Smallest : -1
+   Output: Second Smallest : -1
 ```
+
 </details>
 
 <details>
@@ -80,6 +84,7 @@ Example 2
    Input: N = 5, array[] = {5,4,6,7,8}
    Output: False.
 ```
+
 </details>
 
 <details>
@@ -103,6 +108,7 @@ Example 2:
    Input: arr[1,1,1,2,2,3,3,3,3,4,4]
    Output: arr[1,2,3,4,_,_,_,_,_,_,_]
 ```
+
 </details>
 
 <details>
@@ -122,6 +128,7 @@ Example 2:
    Input: N = 1, array[] = {3}
    Output: 3
 ```
+
 </details>
 
 <details>
@@ -141,6 +148,7 @@ Example 2:
    Input: N = 6, array[] = {3,7,8,9,10,11} , k=3 , left 
    Output: 9 10 11 3 7 8
 ```
+
 </details>
 
 <details>
@@ -161,6 +169,7 @@ Example 2:
    Input: 1,2,0,1,0,4,0
    Output: 1,2,1,4,0,0,0
 ```
+
 </details>
 
 <details>
@@ -181,6 +190,7 @@ Example 2:
    Input: arr[]= 5 4 3 2 1, num = 5
    Output: 0
 ```
+
 </details>
 
 <details>
@@ -207,6 +217,7 @@ Example 2:
          arr2[] = {2,3,4,4,5,11,12}
    Output: {1,2,3,4,5,6,7,8,9,10,11,12}
 ```
+
 </details>
 
 <details>
@@ -233,6 +244,7 @@ Example 2:
          arr2[] = {2,3,4,4,5,11,12}
    Output: {2,3,4,5}
 ```
+
 </details>
 
 <details>
@@ -253,6 +265,7 @@ Example 2:
    Input Format: N = 3, array[] = {1,3}
    Result: 2
 ```
+
 </details>
 
 <details>
@@ -272,6 +285,7 @@ Example 2:
    Input: prices = {1, 0, 1, 1, 0, 1} 
    Output: 2
 ```
+
 </details>
 
 <details>
@@ -291,6 +305,7 @@ Example 2:
    Input Format: arr[] = {4,1,2,1,2}
    Result: 4
 ```
+
 </details>
 
 <details>
@@ -311,8 +326,8 @@ Example 2:
    Input Format: N = 5, k = 10, array[] = {2,3,5,1,9}
    Result: 3
 ```
-</details>
 
+</details>
 
 ### <a name="medium">Medium</a>
 
@@ -343,6 +358,7 @@ Example 2:
      Result: NO (for 1st variant)
              [-1, -1] (for 2nd variant)
 ```
+
 </details>
 
 <details>
@@ -364,9 +380,31 @@ Examples
    Input: nums = [0]
    Output: [0]
 ```
+
 </details>
 
+<details>
+<summary>
+  <code>Find the Majority Element that occurs more than N/2 times</code>
+  <a target="_blank" href="https://github.com/VishwasPrabhu18/Java-Coding/blob/main/Problems_On_Arrays/Medium/MajorityElements.java">MajorityElements.java</a>
+</summary>
 
+```
+Problem Statement: Given an array of N integers, write a program to return an element that occurs more than N/2 times in the given array. You may consider that such an element always exists in the array.
 
+Example 1:
+   Input Format: N = 3, nums[] = {3,2,3}
+   Result: 3
+
+Example 2:
+   Input Format:  N = 7, nums[] = {2,2,1,1,1,2,2}
+   Result: 2
+
+Example 3:
+   Input Format:  N = 10, nums[] = {4,4,2,4,3,4,4,3,2,4}
+   Result: 4
+```
+
+</details>
 
 ### <a name="hard">Hard</a>
